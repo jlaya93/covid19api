@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Covid Case Tracker</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="design">
+    <h1>Covid 19 cases tracker</h1>
+    <form class="formdesign" id="myForm">
+      <input type="text" class="firstbtn" id="country" placeholder="Enter country name">
+      <input type="submit" class="btn btn-info idk" name="" value="Get Data">
+    </form>
+    <div class="box">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Category</th>
+            <th scope="col">Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><h3>Total Confirmed Cases</h3></th>
+            <td><h3 id="confirmed"></h3></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th scope="row"><h3>Total Reovered Cases</h3></th>
+            <td><h3 id="recovered"></h3></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th scope="row"><h3>Total Deaths</h3></th>
+            <td><h3 id="deaths"></h3></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
+
+
+<!-- <h3 id="recovered"></h3>
+<h3 id="deaths"></h3> -->
